@@ -1,4 +1,4 @@
-/* Copy refreshed data over every Monday Morning at 3:00AM */
+/* Copy refreshed data over every Monday Morning at 3:00AM */ 
 function moveValuesOnly() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = ss.getSheets()[1];
